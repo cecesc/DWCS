@@ -1,5 +1,5 @@
 <?php 
-echo"EJERCICIO 1 \n";
+echo"EJERCICIO 2.1.1 \n";
 echo "Ingresa tu altura (cm): ";
 fscanf(STDIN, "%d", $altura);
 
@@ -13,15 +13,14 @@ echo "La altura en pies es: " . number_format($pies, 2). "\n";
 
 
 <?php  
-echo"EJERCICIO 2 \n";
-
+echo"EJERCICIO 2.1.2 \n";
 echo "Ingresa un numero: ";
 fscanf(STDIN, "%d", $x);
 $f=0;
 
- if ($x>0) {
+if ($x>0) {
     $f= $x**2;
- }
+}
 
 ?>
 
@@ -43,6 +42,7 @@ $f=0;
 
 
 <?php 
+echo"EJERCICIO 2.1.3 \n";
 echo "Ingresa tres numeros: ";
 fscanf(STDIN, "%d,%d,%d", $a,$b,$c);
 
