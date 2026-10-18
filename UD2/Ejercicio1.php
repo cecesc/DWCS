@@ -1,3 +1,12 @@
+/*
+1. Crea un archivo ejercicio1.php.
+2. Muestra un título HTML: “Mi primera página PHP”.
+3. Desde PHP, muestra tu nombre y el texto “Estoy aprendiendo PHP”.
+4. Añade una segunda salida con echo que muestre una línea separadora.
+Extra: prueba qué ocurre si eliminas un punto y coma
+*/
+
+
 <?php
 $titulo="Mi primera página PHP";
 $nombre='Celia';

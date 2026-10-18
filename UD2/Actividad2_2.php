@@ -64,8 +64,27 @@ echo 1 . "\n";
 
     
     <div class="resultado">
-        <p> Conseguido! Necesitáronse un total de <?php echo $contadorTiradas; ?> tiradas para obter o 5.</p>
+        <p>Necesitáronse un total de <?php echo $contadorTiradas; ?> tiradas para obter o 5.</p>
     </div>
 
 </body>
 </html>
+
+
+<?php
+echo "EJERCICIO 2.2.5";
+echo "Introduce tu calificación: ";
+fscanf(STDIN, "%d", $nota);
+
+switch ($nota) {
+    case 0:     
+        echo "i igual 0\n";
+        break;
+    case 1:
+        echo "i igual 1\n";
+        break;
+    case 2:
+        echo "i igual 2\n";
+        break;
+}
+?>
