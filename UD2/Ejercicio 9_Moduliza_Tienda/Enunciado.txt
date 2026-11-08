@@ -1,0 +1,14 @@
+EJERCICIO 9
+•  Mueve las funciones de cálculo a src/funciones.php.
+•  Coloca el catálogo fijo en src/catalogo.php.
+•  Deja el formulario y su procesamiento en public/index.php.
+•  Usa require_once con __DIR__.
+•  Comprueba que el formulario sigue funcionando.
+
+
+EJERCICIO 10
+• Envía nombre vacío, cantidad negativa y entrega inventada.
+• Comprueba que el servidor rechaza cada caso.
+• Introduce caracteres especiales en el nombre.
+• Busca un precio recibido por POST: ¿debería confiarse en él?
+• Añade mensajes específicos sin revelar datos internos.
